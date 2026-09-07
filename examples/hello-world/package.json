@@ -4,12 +4,6 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "start": "tsx index.ts"
-  },
-  "dependencies": {
-    "cordis": "workspace:*"
-  },
-  "devDependencies": {
-    "tsx": "npm:@cordiverse/tsx@4.19.3-fix.3"
+    "start": "node index.js"
   }
 }
