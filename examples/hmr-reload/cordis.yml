@@ -1,0 +1,16 @@
+- id: timer
+  name: '@cordisjs/plugin-timer'
+- id: hmr
+  name: '@cordisjs/plugin-hmr'
+  config:
+    root:
+      - .
+    debounce: 50
+- id: app
+  name: '@cordisjs/plugin-group'
+  group: true
+  config:
+    - id: heartbeat
+      name: ./plugins/heartbeat.js
+      inject:
+        - timer
