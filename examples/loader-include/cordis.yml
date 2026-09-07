@@ -1,0 +1,8 @@
+- id: greeter
+  name: ./plugins/greeter.js
+  config:
+    # Evaluated when the entry mounts (loader interpolates !!js into config).
+    greeting: !!js process.env.DEMO_GREETING ?? 'Hello'
+- id: noisy
+  name: ./plugins/noisy.js
+  # Enabled in the base file; disabled by include `patches` overlay in index.js.
