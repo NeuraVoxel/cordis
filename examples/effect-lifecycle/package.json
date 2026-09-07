@@ -1,0 +1,9 @@
+{
+  "name": "cordis-example-effect-lifecycle",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
